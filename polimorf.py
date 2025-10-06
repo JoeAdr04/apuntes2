@@ -48,24 +48,22 @@ class Server:
         
         elif(isinstance(otro, Server)):
             return self.__ip + otro.__ip
-    
-
 
 class Main():
     b = MiEntero(4)
     '''a = MiEntero(3)
-    
     print(a.esPar())
     print(MiEntero.esPar(8))
     print(MiEntero.esPar(b))
     '''
-    
+    ## sobrecargar el operador * para dividir ip/valor (__mul__)
     server1 = Server(200)
     print(server1)
     server2 = Server(201,"data.sql")
     print(server2)
     print ("sobrebcarga el operador modulo %")
-    print(server1%b)
+    x = server1%b
+    print(x)
     print(server2%server1)
     
     
