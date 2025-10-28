@@ -90,7 +90,7 @@ class Main():
     
     disco = DiscoDuro(256, "kingston", "nvme")
     
-    comp = Computadora(2025, proc)
+    comp = Computadora(2025, "i5", 2020)
     comp.agregarDisco(disco)
     comp.agregarRam(ram)
     comp.agregarRam(ram2)

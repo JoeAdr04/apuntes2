@@ -49,6 +49,8 @@ class Carrera:
     
     def getEstudiantes(self):
         return self.estudiantes
+    
+        
     '''def buscar(self, x:int):
         for e in self.estudiantes:
             if(e.getMatricula() == x):
@@ -124,6 +126,7 @@ class Main():
     c2.agregaEstudiante(es4)
     c1.agregaEstudiante(es1)
     c1.agregaEstudiante(es2)
+    totalEst = c1.cantEstudiantes()+ c2.cantEstudiantes()
     #print(c1)
     f1 = Facultad("ciencias puras", 0)
     f1.agregaCarrera(c1)
