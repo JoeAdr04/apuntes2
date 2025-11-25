@@ -1,0 +1,22 @@
+[
+  {
+    "calibre": 12,
+    "tipo": "magnum",
+    "cargador": 6
+  },
+  {
+    "calibre": 50,
+    "tipo": "subfusil",
+    "cargador": 60
+  },
+  {
+    "calibre": 100,
+    "tipo": "minigun",
+    "cargador": 500
+  },
+  {
+    "calibre": 30,
+    "tipo": "fal",
+    "cargador": 30
+  }
+]
