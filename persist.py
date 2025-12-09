@@ -1,7 +1,6 @@
 import json
 import os
 
-
 class Arma:
     def __init__(self, cal, tipo, car):
         self.__calibre = cal
